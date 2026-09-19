@@ -1,40 +1,26 @@
-# Metodología de Trabajo: Scrum
-Para el desarrollo de la aplicación web de Halcon se evaluaron distintas 
-metodologías ágiles (Scrum, Kanban, XP) y metodologías tradicionales 
-(Cascada). Finalmente se optó por Scrum por las razones que se 
-exponen a continuación.
+# Work Methodology: Scrum
+For the development of the Halcon web application, various agile methodologies (Scrum, Kanban, XP) and traditional methodologies (Waterfall) were evaluated. Ultimately, Scrum was selected for the reasons outlined below.
 
-### ¿Qué es Scrum?
-Scrum es un marco de trabajo ágil que organiza el desarrollo en ciclos 
-cortos llamados Sprints, con entregas 
-incrementales y feedback constante del cliente.
+### What is Scrum?
+Scrum is an agile framework that organizes development into short cycles called Sprints, featuring incremental deliveries and constant customer feedback.
 
-### Justificación
+### Justification
 
-- **Requisitos evolutivos**: el cliente puede ajustar detalles del 
-  sistema conforme ve avances (por ejemplo, cambios en los estados 
-  de pedido o en la gestión de evidencias fotográficas).
-- **Entregas incrementales**: permite construir primero el portal de 
-  clientes, luego el dashboard administrativo, después la gestión de 
-  pedidos, etc.
-- **Feedback constante**: el cliente valida cada incremento al final 
-  de cada Sprint.
-- **Adaptabilidad**: si surge un nuevo requerimiento (por ejemplo, 
-  notificaciones por correo), se puede incorporar en el siguiente Sprint.
-- **Roles claros**: Product Owner (representa al cliente), Scrum Master 
-  (facilita el proceso) y Equipo de Desarrollo.
-- **Transparencia**: el tablero de tareas (Scrum Board) permite ver el 
-  estado del proyecto en todo momento.
+- **Evolving requirements**: the client can adjust system details as they see progress (for example, changes to order statuses or the management of photographic evidence).
+- **Incremental deliveries**: allows for building the customer portal first, then the administrative dashboard, followed by order management, etc.
+- **Constant feedback**: the client validates each increment at the end of each Sprint.
+- **Adaptability**: if a new requirement arises (for example, email notifications), it can be incorporated into the next Sprint.
+- **Clear roles**: Product Owner (represents the client), Scrum Master 
+(facilitates the process), and Development Team.
+- **Transparency**: the task board (Scrum Board) allows the project status to be viewed at any time.
 
-### Comparación con otras metodologías
+### Comparison with other methodologies
 
-| Metodología | ¿Por qué no se eligió? |
+| Methodology | Why wasn't it chosen? |
 |---|---|
-| Cascada | Poco flexible ante cambios en los requisitos. |
-| Kanban | Útil, pero sin Sprints definidos el seguimiento se vuelve difuso. |
-| XP | Más enfocada a equipos muy técnicos; el cliente de Halcon necesita validaciones frecuentes. |
+| Cascada | Not very flexible regarding changes in requirements. |
+| Kanban | Useful, but without defined Sprints, tracking becomes vague. |
+| XP | More focused on highly technical teams; Halcon's client requires frequent validations. |
 
-### Conclusión
-Scrum se adapta mejor a las necesidades de Halcon porque permite 
-entregas parciales, incorporar cambios sin afectar el proyecto y 
-mantener al cliente involucrado en todo momento.
+### Conclusion
+Scrum is better suited to Halcon's needs because it allows for partial deliveries, the incorporation of changes without affecting the project, and keeping the client involved at all times.
