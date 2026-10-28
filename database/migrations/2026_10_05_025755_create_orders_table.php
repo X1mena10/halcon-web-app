@@ -9,14 +9,15 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('orders', function (Blueprint $table) {
-            $table->id();
-            $table->string('status');
-            $table->integer('total_value');
-            $table->integer('taxes');
-            $table->integer('shipping_charges');
-            $table->foreignId('user_id')->constrained()->onDelete('cascade');
-            $table->timestamps();
-        });
+    $table->id();
+$table->foreignId('user_id')->constrained()->onDelete('cascade');
+$table->string('invoice_number')->unique();
+$table->decimal('total', 10, 2);
+$table->string('status');
+$table->text('description')->nullable(); // Asegúrate de tener esta línea
+$table->softDeletes();
+$table->timestamps();
+});
     }
 
     public function down(): void
